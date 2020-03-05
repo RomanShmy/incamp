@@ -1,0 +1,8 @@
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/bin/Debug/netcoreapp3.1/Checkout.deps.json
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/bin/Debug/netcoreapp3.1/Checkout.dll
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/bin/Debug/netcoreapp3.1/Checkout.pdb
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/obj/Debug/netcoreapp3.1/Checkout.csprojAssemblyReference.cache
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/obj/Debug/netcoreapp3.1/Checkout.AssemblyInfoInputs.cache
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/obj/Debug/netcoreapp3.1/Checkout.AssemblyInfo.cs
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/obj/Debug/netcoreapp3.1/Checkout.dll
+/Users/roman/Desktop/csharp/incamp/unit-tests/Checkout/obj/Debug/netcoreapp3.1/Checkout.pdb

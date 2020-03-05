@@ -16,7 +16,7 @@ namespace InternshipTest.Person
             this.knowledge = knowledge;
         }
 
-        public string getNameOfStudent()
+        public string GetNameOfStudent()
         {
             return name;
         }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/intern/project/csharp/internshiptest.csproj": {}
+    "/Users/roman/Desktop/csharp/incamp/csharp/internshiptest.csproj": {}
   },
   "projects": {
-    "/home/intern/project/csharp/internshiptest.csproj": {
+    "/Users/roman/Desktop/csharp/incamp/csharp/internshiptest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/intern/project/csharp/internshiptest.csproj",
+        "projectUniqueName": "/Users/roman/Desktop/csharp/incamp/csharp/internshiptest.csproj",
         "projectName": "internshiptest",
-        "projectPath": "/home/intern/project/csharp/internshiptest.csproj",
-        "packagesPath": "/home/intern/.nuget/packages/",
-        "outputPath": "/home/intern/project/csharp/obj/",
+        "projectPath": "/Users/roman/Desktop/csharp/incamp/csharp/internshiptest.csproj",
+        "packagesPath": "/Users/roman/.nuget/packages/",
+        "outputPath": "/Users/roman/Desktop/csharp/incamp/csharp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/intern/.nuget/NuGet/NuGet.Config"
+          "/Users/roman/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -56,7 +53,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }

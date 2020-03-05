@@ -8,3 +8,13 @@
 /home/intern/project/csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
 /home/intern/project/csharp/obj/Debug/netcoreapp2.1/internshiptest.dll
 /home/intern/project/csharp/obj/Debug/netcoreapp2.1/internshiptest.pdb
+/Users/roman/Desktop/csharp/incamp/csharp/bin/Debug/netcoreapp2.1/internshiptest.deps.json
+/Users/roman/Desktop/csharp/incamp/csharp/bin/Debug/netcoreapp2.1/internshiptest.runtimeconfig.json
+/Users/roman/Desktop/csharp/incamp/csharp/bin/Debug/netcoreapp2.1/internshiptest.runtimeconfig.dev.json
+/Users/roman/Desktop/csharp/incamp/csharp/bin/Debug/netcoreapp2.1/internshiptest.dll
+/Users/roman/Desktop/csharp/incamp/csharp/bin/Debug/netcoreapp2.1/internshiptest.pdb
+/Users/roman/Desktop/csharp/incamp/csharp/obj/Debug/netcoreapp2.1/internshiptest.csprojAssemblyReference.cache
+/Users/roman/Desktop/csharp/incamp/csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfoInputs.cache
+/Users/roman/Desktop/csharp/incamp/csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
+/Users/roman/Desktop/csharp/incamp/csharp/obj/Debug/netcoreapp2.1/internshiptest.dll
+/Users/roman/Desktop/csharp/incamp/csharp/obj/Debug/netcoreapp2.1/internshiptest.pdb
