@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 
 namespace checkout
 {
@@ -8,22 +9,15 @@ namespace checkout
         public void openCheck()
         {
             check = new Check();
-            check.products = new List<Product>();
-            check.totalCost = 0;
-
         }
 
         public void addProduct(Product product)
         {
-            check.products.Add(product);
+            check.addProduct(product);
         }
 
         public Check closeCheck()
         {
-            foreach (var product in check.products)
-            {
-                check.totalCost += product.price;
-            }
             return check;
         }
     }

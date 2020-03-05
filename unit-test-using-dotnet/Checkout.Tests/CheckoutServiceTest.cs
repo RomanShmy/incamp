@@ -1,4 +1,3 @@
-using System;
 using checkout;
 using Xunit;
 
@@ -6,6 +5,7 @@ namespace Checkout.Tests
 {
     public class CheckoutServiceTest
     {
+       
         [Fact]
         public void closeCheck__withOneProduct()
         {
@@ -15,7 +15,7 @@ namespace Checkout.Tests
              checkoutService.addProduct(new Product(7, "Milk"));
              Check check = checkoutService.closeCheck();
 
-             Assert.Equal(check.getTotalCost(), 7);   
+             Assert.Equal(7, check.getTotalCost());   
         }
 
         [Fact]
@@ -28,7 +28,7 @@ namespace Checkout.Tests
              checkoutService.addProduct(new Product(3, "Bred"));
              Check check = checkoutService.closeCheck();
 
-             Assert.Equal(check.getTotalCost(), 10);   
+             Assert.Equal(10,check.getTotalCost());   
         }
     }
 }
