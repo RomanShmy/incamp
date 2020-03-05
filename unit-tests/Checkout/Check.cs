@@ -17,5 +17,10 @@ namespace Checkout
             }
             return totalCost;
         }
+
+        public int getTotalPoints()
+        {
+            return getTotalCost();
+        }
     }
 }
