@@ -5,6 +5,7 @@ namespace Checkout
     public class Check
     {
         private List<Product> products = new List<Product>();
+        private int points = 0;
         public void addProduct(Product product)
         {
             products.Add(product);
@@ -20,7 +21,12 @@ namespace Checkout
 
         public int getTotalPoints()
         {
-            return getTotalCost();
+            return getTotalCost() + points;
+        }
+
+        public void addPoints(int points)
+        {
+            this.points = points;
         }
     }
 }

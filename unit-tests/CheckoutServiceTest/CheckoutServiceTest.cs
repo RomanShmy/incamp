@@ -54,5 +54,25 @@ namespace CheckoutServiceTest
             Check check = checkoutService.closeCheck();
             Assert.Equal(10,check.getTotalPoints());
         }
+        
+        [Fact]
+        public void useOffer__addOfferPoints()
+        {
+            checkoutService.addProduct(milk);
+            checkoutService.addProduct(bred);
+            checkoutService.useOffer(new AnyGoodsOffer(6, 2));
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(12,check.getTotalPoints());
+        }
+        
+        [Fact]
+        public void useOffer__whenCostLessThanRequired__doNothing()
+        {
+            checkoutService.addProduct(bred);
+            checkoutService.useOffer(new AnyGoodsOffer(6, 2));
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(3,check.getTotalPoints());
+        }
     }
+    
 }
