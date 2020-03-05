@@ -27,9 +27,18 @@ namespace Checkout
 
         public void useOffer(AnyGoodsOffer offer)
         {
-            if (offer.totalCost <= check.getTotalCost())
+            if (offer is FactorByCategoryOffer)
             {
-                check.addPoints(offer.points);
+                FactorByCategoryOffer fbOffer = (FactorByCategoryOffer) offer;
+                int points = check.getCostByCategory(fbOffer.category);
+                check.addPoints(points * (fbOffer.factor - 1));
+            }
+            else
+            {
+                if (offer.totalCost <= check.getTotalCost())
+                {
+                    check.addPoints(offer.points);
+                }
             }
         }
     }

@@ -11,7 +11,7 @@ namespace CheckoutServiceTest
 
         public UnitTest1()
         {
-            milk = new Product(7, "Milk");
+            milk = new Product(7, "Milk", Category.MILK);
             bred = new Product(3, "Bred");
             checkoutService = new CheckoutService();
             checkoutService.openCheck();
@@ -73,6 +73,19 @@ namespace CheckoutServiceTest
             Check check = checkoutService.closeCheck();
             Assert.Equal(3,check.getTotalPoints());
         }
+
+        [Fact]
+        public void useOffer__factorByCategory()
+        {
+            checkoutService.addProduct(milk);
+            checkoutService.addProduct(milk);
+            checkoutService.addProduct(bred);
+            checkoutService.useOffer(new FactorByCategoryOffer(Category.MILK, 2));
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(31,check.getTotalPoints());
+        }
+
+        
     }
     
 }

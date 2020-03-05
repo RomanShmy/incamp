@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Checkout
 {
@@ -27,6 +28,11 @@ namespace Checkout
         public void addPoints(int points)
         {
             this.points = points;
+        }
+
+        public int getCostByCategory(Category category)
+        {
+            return products.Where(n => n.category == category).Sum(a => a.price );
         }
     }
 }
