@@ -1,0 +1,8 @@
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/bin/Debug/netstandard2.0/Checkout.deps.json
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/bin/Debug/netstandard2.0/Checkout.dll
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/bin/Debug/netstandard2.0/Checkout.pdb
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/Debug/netstandard2.0/Checkout.csprojAssemblyReference.cache
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/Debug/netstandard2.0/Checkout.AssemblyInfoInputs.cache
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/Debug/netstandard2.0/Checkout.AssemblyInfo.cs
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/Debug/netstandard2.0/Checkout.dll
+/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/Debug/netstandard2.0/Checkout.pdb
