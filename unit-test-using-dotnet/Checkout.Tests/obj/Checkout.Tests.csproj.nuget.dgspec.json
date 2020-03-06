@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/intern/project/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj": {}
+    "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj": {}
   },
   "projects": {
-    "/home/intern/project/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj": {
+    "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj",
+        "projectUniqueName": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj",
         "projectName": "Checkout.Tests",
-        "projectPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj",
+        "projectPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout.Tests/Checkout.Tests.csproj",
         "packagesPath": "/home/intern/.nuget/packages/",
-        "outputPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout.Tests/obj/",
+        "outputPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout.Tests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {
-                "projectPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj"
+              "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {
+                "projectPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {
+    "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
+        "projectUniqueName": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
         "projectName": "Checkout",
-        "projectPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
+        "projectPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
         "packagesPath": "/home/intern/.nuget/packages/",
-        "outputPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/",
+        "outputPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

@@ -15,7 +15,7 @@ namespace Checkout
 
         public override void apply(Check check)
         {
-            int points = check.getCostByCategory(this.category);
+            int points = check.getCostByCategory(category);
             check.addPoints(points * (this.factor - 1));
         }
     }

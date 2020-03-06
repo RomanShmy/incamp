@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
+      "projectUniqueName": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
       "projectName": "Checkout",
-      "projectPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
+      "projectPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
       "packagesPath": "/home/intern/.nuget/packages/",
-      "outputPath": "/home/intern/project/incamp/unit-test-using-dotnet/Checkout/obj/",
+      "outputPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

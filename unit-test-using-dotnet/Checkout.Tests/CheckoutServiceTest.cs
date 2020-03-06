@@ -49,6 +49,8 @@ namespace CheckoutServiceTest
         [Fact]
         public void closeCheck__calcTotalPoints()
         {
+            milk = new Product(7, "Milk");
+            bred = new Product(3, "Bred");
             checkoutService.addProduct(milk);
             checkoutService.addProduct(bred);
             Check check = checkoutService.closeCheck();
@@ -84,6 +86,19 @@ namespace CheckoutServiceTest
             Check check = checkoutService.closeCheck();
             Assert.Equal(31,check.getTotalPoints());
         }
+
+        [Fact]
+        public void useOffer__beforeCloseCheck()
+        {
+            checkoutService.addProduct(milk);
+            checkoutService.useOffer(new FactorByCategoryOffer(Category.MILK, 2));
+            checkoutService.addProduct(milk);
+            checkoutService.addProduct(bred);
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(31, check.getTotalPoints());
+        }
+
+        
 
         
     }
