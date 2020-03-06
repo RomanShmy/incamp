@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using System;
-
-namespace checkout
+namespace Checkout
 {
     public class CheckoutService
     {
@@ -13,12 +10,24 @@ namespace checkout
 
         public void addProduct(Product product)
         {
+            if (check == null)
+            {
+                openCheck();
+            }
             check.addProduct(product);
         }
 
         public Check closeCheck()
         {
-            return check;
+            Check closedCheck = check;
+            check = null;
+            return closedCheck;
+
+        }
+
+        public void useOffer(Offer offer)
+        {
+            offer.apply(check);
         }
     }
 }
