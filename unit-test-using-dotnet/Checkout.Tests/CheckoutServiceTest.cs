@@ -97,10 +97,18 @@ namespace CheckoutServiceTest
             Check check = checkoutService.closeCheck();
             Assert.Equal(31, check.getTotalPoints());
         }
-
         
-
-        
+        [Fact]
+        public void useOffer__beforeCloseCheck__withTemplateMethod()
+        {
+            checkoutService.addProduct(milk);
+            checkoutService.useOffer(new FactorByCategoryOffer(Category.MILK, 2));
+            checkoutService.addProduct(milk);
+            checkoutService.addProduct(bred);
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(31, check.getTotalPoints());
+            
+        }
     }
     
 }

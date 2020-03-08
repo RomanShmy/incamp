@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {}
+    "/Users/roman/Desktop/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {}
   },
   "projects": {
-    "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {
+    "/Users/roman/Desktop/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
+        "projectUniqueName": "/Users/roman/Desktop/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
         "projectName": "Checkout",
-        "projectPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
-        "packagesPath": "/home/intern/.nuget/packages/",
-        "outputPath": "/home/intern/project/repo/incamp/unit-test-using-dotnet/Checkout/obj/",
+        "projectPath": "/Users/roman/Desktop/repo/incamp/unit-test-using-dotnet/Checkout/Checkout.csproj",
+        "packagesPath": "/Users/roman/.nuget/packages/",
+        "outputPath": "/Users/roman/Desktop/repo/incamp/unit-test-using-dotnet/Checkout/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/intern/.nuget/NuGet/NuGet.Config"
+          "/Users/roman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -56,7 +53,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }

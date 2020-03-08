@@ -16,21 +16,18 @@ namespace Checkout
 
         public void addProduct(Product product)
         {
-
-            
             if (check == null)
             {
                 openCheck();
             }
             check.addProduct(product);
-        
         }
 
         public Check closeCheck()
         {
             foreach (var offer in offers)
             {
-                offer.apply(check);
+                offer.use(check);
             }
             Check closedCheck = check;
             check = null;
