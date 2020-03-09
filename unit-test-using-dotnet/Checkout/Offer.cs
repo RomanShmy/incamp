@@ -3,6 +3,8 @@ namespace Checkout
 {
     public abstract class Offer
     {
+        internal int countDay;
+        internal DateTime date;
         public bool use(Check check)
         {
             if (!ExpirationDate())
@@ -16,7 +18,10 @@ namespace Checkout
 
         public abstract void apply(Check check);
 
-        public abstract bool ExpirationDate();
+        public bool ExpirationDate()
+        {
+            return date.AddDays(countDay).CompareTo(DateTime.Now) < 0;
+        }
         
     }
 
