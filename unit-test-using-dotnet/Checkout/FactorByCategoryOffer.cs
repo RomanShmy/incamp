@@ -25,7 +25,9 @@ namespace Checkout
                     int points = check.getCostByCategory(category);
                     check.addPoints(points * (this.Factor - 1));
                 }
+                
             }
+            
         }
     }
 }

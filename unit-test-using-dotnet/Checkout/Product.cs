@@ -2,7 +2,7 @@ namespace Checkout
 {
     public class Product
     {
-        public readonly int price;
+        public int price;
         public readonly string title;
         public Category category;
 
