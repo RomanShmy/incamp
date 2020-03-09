@@ -34,5 +34,10 @@ namespace Checkout
         {
             return products.Where(n => n.category == category).Sum(a => a.price );
         }
+
+        public List<Product> getProducts()
+        {
+            return products;
+        }
     }
 }

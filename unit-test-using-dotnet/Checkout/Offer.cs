@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
+
 namespace Checkout
 {
     public abstract class Offer
     {
         internal int countDay;
         internal DateTime date;
+        internal HashSet<string> products = new HashSet<string>(){"Milk","Bred"};
         public bool use(Check check)
         {
             if (!ExpirationDate())

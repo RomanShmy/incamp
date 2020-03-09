@@ -109,6 +109,15 @@ namespace CheckoutServiceTest
             Assert.Equal(31, check.getTotalPoints());
             
         }
+
+        [Fact]
+        public void checkTitleOfProduct__inOffer()
+        {
+            checkoutService.addProduct(new Product(12,"Water"));
+            checkoutService.useOffer(new AnyGoodsOffer(6, 2));
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(12,check.getTotalPoints());
+        }
     }
     
 }

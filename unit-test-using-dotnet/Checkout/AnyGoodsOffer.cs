@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Checkout
 {
@@ -17,9 +18,12 @@ namespace Checkout
 
         public override void apply(Check check)
         {
-            if (this.totalCost <= check.getTotalCost())
+            foreach (var product in check.getProducts())
             {
-                check.addPoints(this.points);
+                if (this.totalCost <= check.getTotalCost() && this.products.Contains(product.title))
+                {
+                    check.addPoints(this.points);
+                }
             }
         }
 

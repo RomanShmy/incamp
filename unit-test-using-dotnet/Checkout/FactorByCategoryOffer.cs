@@ -18,8 +18,14 @@ namespace Checkout
 
         public override void apply(Check check)
         {
-            int points = check.getCostByCategory(category);
-            check.addPoints(points * (this.Factor - 1));
+            foreach (var product in check.getProducts())
+            {
+                if (this.products.Contains(product.title))
+                {
+                    int points = check.getCostByCategory(category);
+                    check.addPoints(points * (this.Factor - 1));
+                }
+            }
         }
     }
 }
