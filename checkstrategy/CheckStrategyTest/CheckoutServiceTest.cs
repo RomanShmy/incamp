@@ -1,4 +1,5 @@
 using Checkout;
+using Condition;
 using Type;
 using Xunit;
 
@@ -60,40 +61,51 @@ namespace CheckoutServiceTest
         }
         
         [Fact]
-        public void useOffer__bounusOfferAddPoint()
+        public void useOffer__bounusOfferAddPoint__byTotalCost()
         {
             checkoutService.addProduct(milk);
             checkoutService.addProduct(bred);
-            checkoutService.useOffer(new BonusOffer(new Flat(6,2)));
+            checkoutService.useOffer(new BonusOffer(new TotalCost(new Flat(6,2))));
             Check check = checkoutService.closeCheck();
             Assert.Equal(12,check.getTotalPoints());
         }
 
         [Fact]
-        public void useOffer__bounusOfferAddPoint__doNothing()
+        public void useOffer__bounusOfferAddPoint__byCategory()
         {
             checkoutService.addProduct(bred);
-            checkoutService.useOffer(new BonusOffer(new Flat(6,2)));
+            checkoutService.useOffer(new BonusOffer(new ByCategory(new Flat(6,2))));
             Check check = checkoutService.closeCheck();
             Assert.Equal(3,check.getTotalPoints());
         }
 
         [Fact]
-        public void useOffer__bounusOfferFactorPoint()
+        public void useOffer__bounusOfferAddPoint__byTitle()
+        {
+            checkoutService.addProduct(bred);
+            checkoutService.addProduct(bred);
+            checkoutService.addProduct(bred);
+            checkoutService.useOffer(new BonusOffer(new ByTitle(new Flat(6,2))));
+            Check check = checkoutService.closeCheck();
+            Assert.Equal(11,check.getTotalPoints());
+        }
+
+        [Fact]
+        public void useOffer__bounusOfferFactorPoint__byTitle()
         {
             checkoutService.addProduct(milk);
             checkoutService.addProduct(bred);
-            checkoutService.useOffer(new BonusOffer(new Factor(2)));
+            checkoutService.useOffer(new BonusOffer(new ByTitle(new Flat(6,2))));
             checkoutService.addProduct(new Product(10, "Water"));
             Check check = checkoutService.closeCheck();
-            Assert.Equal(30,check.getTotalPoints());
+            Assert.Equal(22,check.getTotalPoints());
         }
         
         [Fact]
         public void useOffer__discountOffer__totalPrice()
         {
             checkoutService.addProduct(bred);
-            checkoutService.useOffer(new DiscountOffer(new Percent(20)));
+            checkoutService.useOffer(new BonusOffer(new ByTitle(new Percent(20))));
             Check check = checkoutService.closeCheck();
             Assert.Equal(2.4, check.getTotalPrice());
         }

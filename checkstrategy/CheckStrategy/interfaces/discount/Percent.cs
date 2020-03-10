@@ -4,7 +4,7 @@ namespace Checkout
     {
         public double quantity {get; }
 
-        public Percent(double quantity)
+        public Percent(double quantity = 50)
         {
             this.quantity = quantity;
         }

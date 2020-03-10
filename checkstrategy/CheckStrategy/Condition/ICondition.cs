@@ -1,7 +1,9 @@
+using Checkout;
+
 namespace Condition
 {
     public interface ICondition
     {
-        object doOfferBy(object data);
+        void doOfferBy(Check check);
     }
 }
