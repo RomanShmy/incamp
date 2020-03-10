@@ -1,0 +1,8 @@
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/bin/Debug/netstandard2.0/CheckStrategy.deps.json
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/bin/Debug/netstandard2.0/CheckStrategy.dll
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/bin/Debug/netstandard2.0/CheckStrategy.pdb
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/obj/Debug/netstandard2.0/CheckStrategy.csprojAssemblyReference.cache
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/obj/Debug/netstandard2.0/CheckStrategy.AssemblyInfoInputs.cache
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/obj/Debug/netstandard2.0/CheckStrategy.AssemblyInfo.cs
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/obj/Debug/netstandard2.0/CheckStrategy.dll
+/home/intern/project/repo/incamp/checkstrategy/CheckStrategy/obj/Debug/netstandard2.0/CheckStrategy.pdb
